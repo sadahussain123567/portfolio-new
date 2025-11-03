@@ -26,7 +26,7 @@ const projects: Project[] = [
     id: 2,
     title: "Weather Checker Web App",
     buttonText: "Read More",
-    bgImage: "/Project_5.jpeg",
+    bgImage: "/project_5.jpeg",
     bgGradient: "from-amber-100 via-stone-100 to-amber-200",
     slug: "weather-checker-web-app"
   }
@@ -86,3 +86,4 @@ function ProjectCard({ project }: { project: Project }) {
     </div>
   );
 }
+
