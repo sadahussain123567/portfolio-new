@@ -44,7 +44,7 @@ const projectDetails: Record<string, ProjectInfo> = {
 
   "weather-checker-web-app": {
     title: "Weather Checker Web App",
-    image: "/Project_5.jpeg",
+    image: "/project_5.jpeg",
     liveLink: "https://weather-checker-98.streamlit.app/",
     description:"This web application allows users to input a city name (or location) and receive current weather conditions and forecast data. Built using Streamlit, it fetches weather data from a public API and displays it in a simple, intuitive UI. Ideal for demonstrating API integration, responsive UI, and data-driven web apps.",
     projectType: "Real-time Weather Information Web Application",
@@ -177,4 +177,5 @@ export default function ProjectDetails({ params }: { params: { slug: string } })
       </div>
     </section>
   );
+
 }
