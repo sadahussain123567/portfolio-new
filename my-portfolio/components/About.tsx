@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import image from "../public/imagenano.png";
+import image from "../public/imagenano.jpeg";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -88,3 +88,4 @@ export default function AboutSection() {
     </section>
   );
 }
+
